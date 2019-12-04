@@ -33,7 +33,7 @@
             %n              换行
             (encoder必需的）-->
         <encoder>
-            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{48} [%file : %line] %msg%n</pattern>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{24} [%file:%line] %msg%n</pattern>
         </encoder>
     </appender>
 
